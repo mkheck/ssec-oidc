@@ -12,8 +12,3 @@ spring:
         provider:
           okta:
             issuer-uri: https://<okta domain>.oktapreview.com/oauth2/default
-            authorization-uri: https://<okta domain>.oktapreview.com/oauth2/v1/authorize
-            token-uri: https://<okta domain>.oktapreview.com/oauth2/v1/token
-            user-info-uri: https://<okta domain>.oktapreview.com/oauth2/v1/userinfo
-            user-name-attribute: sub
-            jwk-set-uri: https://<okta domain>.oktapreview.com/oauth2/v1/keys
