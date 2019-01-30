@@ -4,11 +4,11 @@ spring:
       client:
         registration:
           google:
-            client-id: <put google client id here>
-            client-secret: <put google client secret here>
+            client-id: 789995815587-os3ljre6jjn1pcr30l7hhke4hddvmefk.apps.googleusercontent.com
+            client-secret: XKs8WuszSxB9EgmRYLDbl521
           okta:
-            client-id: <put okta client id here>
-            client-secret: <put okta client secret here>
+            client-id: 0oaj1ni67rNGhiotD0h7
+            client-secret: ZNXIAwyYlJWUGQ3XvagSm76kOUUo7giUBtWjo92z
         provider:
           okta:
-            issuer-uri: https://<okta domain>.oktapreview.com/oauth2/default
+            issuer-uri: https://dev-845041.oktapreview.com/oauth2/default
