@@ -12,3 +12,4 @@ spring:
         provider:
           okta:
             issuer-uri: https://dev-845041.oktapreview.com/oauth2/default
+

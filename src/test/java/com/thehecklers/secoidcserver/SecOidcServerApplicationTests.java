@@ -1,4 +1,4 @@
-package com.thehecklers.ssecoidc;
+package com.thehecklers.secoidcserver;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -7,11 +7,10 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class SsecOidcApplicationTests {
+public class SecOidcServerApplicationTests {
 
 	@Test
 	public void contextLoads() {
 	}
 
 }
-
