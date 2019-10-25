@@ -10,6 +10,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.reactive.function.client.WebClient;
 
+import java.util.Map;
+
 @SpringBootApplication
 public class SecOidcServerApplication {
 	@Bean
@@ -42,7 +44,7 @@ class OidcController {
 
 	@GetMapping("/")
 	String hello() {
-		return "Hello jPrime!!!!";
+		return "Greetings, Program!";
 	}
 
 	@GetMapping("/something")
@@ -55,11 +57,11 @@ class OidcController {
 	}
 
 	@GetMapping("/claims")
-	String getClaims() {
+	Map getClaims() {
 		return client.get()
 				.uri("/claims")
 				.retrieve()
-				.bodyToMono(String.class)
+				.bodyToMono(Map.class)
 				.block();
 	}
 
